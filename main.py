@@ -7,8 +7,8 @@ from twilio.rest import Client
 
 app = FastAPI()
 
-account_sid = 'ACd99a2e85a75181fc14af87e02e1aee05'
-auth_token = '0494392d52d6fe216c11070150466c21'
+account_sid = ''
+auth_token = ''
 client = Client(account_sid, auth_token)
 
 
